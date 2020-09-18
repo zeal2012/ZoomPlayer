@@ -1,0 +1,3 @@
+实现视频播放时缩放功能，多点触控
+
+把SurfaceView或TextureView放在ZoomViewGroup中即可，实现原理是根据手势识别，设置View的setScaleX，setScaleY方法
