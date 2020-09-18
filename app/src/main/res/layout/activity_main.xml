@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/target_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.fei.smart.tech.zoom.player.ZoomViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <SurfaceView
+            android:id="@+id/view_target"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- <VideoView
+             android:id="@+id/videoview"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+ -->
+        <LinearLayout
+            android:id="@+id/ll_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </com.fei.smart.tech.zoom.player.ZoomViewGroup>
+
+</LinearLayout>
